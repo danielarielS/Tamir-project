@@ -2,7 +2,7 @@ import styled from "styled-components"
 import { Link } from "gatsby"
 
 export const HeaderWrapper = styled.header`
-  background-color: ${({ isClicked }) => (isClicked ? "purple" : "green")};
+  background-color: ${({ isClicked }) => (isClicked ? "purple" : "#985658")};
   color: red;
   font-size: 32px;
 `
